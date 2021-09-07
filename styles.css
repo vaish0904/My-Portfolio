@@ -46,9 +46,32 @@ hr {
 p {
   line-height: 2;
 }
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #e05297;
+  overflow: hidden;
+  position: fixed;
+  height: 100px;
+  width:100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #e05297;
+}
 
 .top-container {
-  position: relative;
   padding-top: 100px;
   background-color: #e4bad4;
 }
