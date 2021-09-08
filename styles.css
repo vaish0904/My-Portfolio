@@ -101,7 +101,10 @@ p {
   float: left;
   margin-right: 30px;
 }
-
+.web {
+  float: right;
+  margin-right: 30px;
+}
 .coding {
   width: 25%;
   float: right;
