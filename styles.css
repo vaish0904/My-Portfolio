@@ -68,6 +68,7 @@ p {
 
 /* Change the color of links on hover */
 .topnav a:hover {
+  height:100%;
   background-color: #ddd;
   color: #e05297;
 }
